@@ -23,7 +23,7 @@ public class Obstacle extends Object {
     fill(0);
     rect(locX, locY, l, w);
     
-    image(img, locX-15, locY-20, width/8, height/8);
+    image(getImg(), locX-15, locY-20, width/8, height/8);
   }
   
   public int getLength() {
