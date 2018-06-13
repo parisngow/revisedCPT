@@ -189,7 +189,7 @@ public class Game {
   void generateObstacles() {
     PVector oLoc = new PVector(random(20, width-20), 0);
     PVector oSpeed = new PVector(0, +5);
-    Obstacle newObst = new Obstacle(oLoc, oSpeed, obstacleImg);
+    Obstacle newObst = new Obstacle(oLoc, oSpeed);
     obstacles.add(newObst);
   }
 
