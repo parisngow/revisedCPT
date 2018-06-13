@@ -2,8 +2,8 @@ public class Obstacle extends Object {
   private int l;
   private int w;
   
-  public Obstacle (PVector loc, PVector speed, String url) {
-    super(loc, speed, url);
+  public Obstacle (PVector loc, PVector speed) {
+    super(loc, speed, "https://smart.servier.com/wp-content/uploads/2016/10/CelluleC_5.png");
     l = 20;
     w = 50;
   }
