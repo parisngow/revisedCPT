@@ -1,14 +1,11 @@
 public class Obstacle extends Object {
   private int l;
   private int w;
-  private PImage img;
   
   public Obstacle (PVector loc, PVector speed, String url) {
     super(loc, speed, url);
     l = 20;
     w = 50;
-    
-    this.img = loadImage(url, "png");
   }
   
   public boolean collides(float x, float y) {
