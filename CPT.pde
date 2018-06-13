@@ -30,8 +30,6 @@ String[] imgs = {
   "https://smart.servier.com/wp-content/uploads/2016/10/neutrophile_05.png"
 };
 
-String obstacleImg = "https://smart.servier.com/wp-content/uploads/2016/10/CelluleC_5.png";
-
 int score;
 int levelScore;
 
